@@ -1,7 +1,4 @@
-# Curso Nivelamento JavaScript
->  Aprenda de forma rápida os principais fundamentos de JavaScript para se preparar para trabalhar com frameworks front end
-
-## JavaScript - var / let / const
+# JavaScript - var / let / const
 
 Palavra chave | Orientação
 --- | --- 
