@@ -1,7 +1,7 @@
 # JavaScript - Strings
 
 ## Concatenação e Interpolação
-```
+```javascript
 console.log("Um string literal pode ficar entre aspas duplas");
 console.log('Um string literal pode ficar entre aspas simples');
 console.log(`Um string literal pode ficar entre crases`);
@@ -12,7 +12,7 @@ console.log(`O valor do produto é ${num}`); // interpolação (printf)
 ```
 
 ## Conversão entre number e string
-```
+```javascript
 // converte um numero para string
 const str1 = num.toString(); 
 console.log(`Tipo de ${str1}: ${typeof str1}`);
@@ -40,7 +40,7 @@ console.log(`Tipo de ${num4}: ${typeof num4}`);
 
 ## Funções de string
 
-```
+```javascript
 const str = "Maria Silva  ";
 console.log(`const str = "Maria Silva  "`);
 
