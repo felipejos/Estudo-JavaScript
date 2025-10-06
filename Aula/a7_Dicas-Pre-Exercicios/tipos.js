@@ -1,0 +1,32 @@
+// COMO PEGAR UM ELEMENTO DO HTML POR ID
+
+const elem = document.getElementById("dados");
+console.log(elem);
+
+// COMO PEGAR UM CONTEUDO DENTRO DE UM ELEMENTO HTML
+
+const conteudo = elem.innerHTML;
+console.log(conteudo);
+
+// COMO RECORTAR UM STRING COM BASE EM UM SEPARADOR
+
+const nomeCompleto = "Maria Silva Costa";
+const result1 = nomeCompleto.split(" ");
+console.log(result1);
+
+const result2 = conteudo.split("\n");
+console.log(result2);
+
+// COMO CONVERTER UM ARRAY DE STRINGS EM UM ARRAY DE NUMEROS
+
+const str = "4.5";
+console.log(str);
+const n = Number(str);
+console.log(n);
+
+const numeros = result2.map(x => Number(x));
+console.log(numeros);
+
+// COMO MOSTRAR UM NUMERO COM ARREDONDAMENTO
+
+console.log(numeros[0].toFixed(2));
